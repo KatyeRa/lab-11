@@ -1,0 +1,226 @@
+h1 {
+  background: #6666CC;
+  color: #FF9933;
+  padding: 2px;
+  display: inline;
+
+  text-transform: uppercase;
+
+}/*цвет заголовка*/
+
+body {
+  background: url(fond.png),rgba(150,150,150,0.7);
+    background-blend-mode: color;
+  background-attachment: fixed;
+  background-repeat: repeat-x;
+}/*фон*/
+
+
+.left {
+    filter: alpha(Opacity=40); /* Полупрозрачность для IE */
+    opacity: 0.4; /* Полупрозрачность для других браузеров */
+   }
+
+.right {
+    filter: alpha(Opacity=40);
+    opacity: 0.4;
+  }
+
+.navigation a {
+  background-color: PaleGreen;
+  display:block;
+  border-top: 1px solid DarkGreen;
+
+  text-align: center;
+
+  height: 30px;
+  line-height: 30px;
+}
+.navigation{
+  width: 550px;
+  border-bottom: 1px solid DarkGreen;
+}
+
+
+
+h1.strong {
+  text-align: center;
+}/*заголовок 1 по центру*/
+h1 {
+font: 1.6em Verdana, Geneva, Arial, Helvetica, sans-serif;
+margin-bottom: 0;
+}/*стайл заголовка1*/
+
+h2 {
+  text-align: center;
+}/*заголовок2 по центру*/
+
+h4 {
+  text-align: center;
+}/*заголовок4 по центру*/
+
+h1+h2 {
+margin-top: 0;
+}/*удаление отступа*/
+
+.tab1 {
+  font-family: "Helvetica", Georgia, Serif;
+  color: DarkGreen;
+}
+.tab1{
+  text-indent: 30px;
+}/*текста с отступом (text-indent)*/
+
+ul.amm li{
+  display:inline;
+}
+
+.vsc {
+background-color: Yellow;
+border: 2px, solid OrangeRed;
+padding: 2px 6px 2px 6px;
+display: inline;
+
+text-transform: uppercase;
+}
+
+.vsc{
+  font-family: "Helvetica", Georgia, Serif;
+  font-weight: bold;
+  color: DarkCyan;
+}
+
+
+p {
+  	text-align: justify;
+}
+p, h3{
+	margin: 50px;
+}/*Отступы от краев станицы*/
+
+
+ul{
+  list-style-image: url(markers.png);
+}/*маркеры изображение*/
+
+table{
+	border: 1px solid black;
+}
+th, td {
+	border: 1px solid black;
+}/*Табличка*/
+
+form.btn {
+background-color: transparent;
+border: 0;
+padding: 0;
+}/*подтверждение кнопки*/
+
+.left {
+  float: left;
+  margin: 0 1em 1em 0;
+}/*картинка1*/
+
+p {
+  font-family: serif;
+  color: #000000;
+  font-weight: 300;
+}
+
+.global {
+color: #FFFFFF;
+background-color: #6A5ACD;
+}
+.global a:link, .boxout a:visited {
+text-decoration: underline;
+color: #E4E2F6;
+background-color: transparent;
+}
+.global a:hover, .boxout a:active {
+background-color: #C9C3ED;
+color: #191970;
+}/*различные стили ссылок1*/
+
+
+
+.a {
+  color: red;
+  font-family: helvetica;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.a:hover {
+  text-decoration: underline;
+}
+.a:active {
+  color: black;
+}
+.a:visited {
+  color: purple;
+}/*различные стили ссылок2*/
+
+a.b {
+  background-color: red;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a.b:hover {
+  background-color: #555;
+}
+
+a.b:active {
+  background-color: black;
+}
+
+a.b:visited {
+  background-color: #ccc;
+}/*различные стили ссылок3*/
+
+.global #navigation li
+.global:hover {
+background-color: #711515;
+
+color: #FFFFFF;
+}
+.right{
+  float: right;
+  margin: 0 1em 1em 0;
+}/*обтекание текстом*/
+
+
+
+input.txt {
+color: #00008B;
+background-color: #E3F2F7;
+border: 1px inset #00008B;
+width: 200px;
+}
+input.btn {
+color: #00008B;
+background-color: #ADD8E6;
+border: 1px outset #00008B;
+}
+form div {
+clear: left;
+margin: 0;
+padding: 0;
+padding-top: 5px;
+}
+form div label {
+float: left;
+width: 40%;
+font: bold 0.9em Arial, Helvetica, sans-serif;
+}
+fieldset {
+border: 1px dotted #61B5CF;
+margin-top: 1.4em;
+padding: 0.6em;
+}
+legend {
+font: bold 0.8em Arial, Helvetica, sans-serif;
+color: #00008B;
+background-color: #FFFFFF;
+}
