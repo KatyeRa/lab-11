@@ -25,6 +25,9 @@ $(document).ready(function () {
   $("#text").click(function() {
     $(".vsc").hide();
   });
+  $("#show").click(function() {
+    $(".vsc").show();
+  });
 
   $("#addClass").click(function() {
     $("h2").addClass("white");
@@ -44,7 +47,6 @@ $(document).ready(function () {
       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
     });
   });
-
 
 
 
