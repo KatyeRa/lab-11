@@ -1,14 +1,18 @@
 /*JQeru*/
 #panel, #flip {
-    padding: 5px;
+    padding: 3px;
     text-align: left;
     background-color: #e5eecc;
     border: solid 1px #c3c3c3;
 }
 
 #panel {
-    padding: 30px;
+    padding: 20px;
     display: none;
+}
+
+.white {
+    color: white;
 }
 /* /JQery */
 h1 {

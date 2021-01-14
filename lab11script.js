@@ -26,4 +26,13 @@ $(document).ready(function () {
     $(".vsc").hide();
   });
 
+  $("#addClass").click(function() {
+    $("h2").addClass("white");
+  });
+
+  $("#remove").click(function() {
+    $("h2").removeClass("white");
+  })
+
+
 })
