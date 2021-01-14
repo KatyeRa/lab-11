@@ -32,7 +32,11 @@ $(document).ready(function () {
 
   $("#remove").click(function() {
     $("h2").removeClass("white");
-  })
+  });
+
+  $("#color").click(function() {
+    $(".vsc").css({"background-color": "black", "color": "white"});
+  });
 
 
 })
