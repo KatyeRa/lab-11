@@ -22,4 +22,8 @@ $(document).ready(function () {
     $("#panel").slideDown("slow");
   });
 
+  $("#text").click(function() {
+    $(".vsc").hide();
+  });
+
 })
