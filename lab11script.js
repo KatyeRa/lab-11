@@ -18,10 +18,6 @@ $(document).ready(function () {
     $("#tab").fadeIn();
   });
 
-  $("#flip").click(function() {
-    $("#panel").slideDown("slow");
-  });
-
   $("#text").click(function() {
     $(".vsc").hide();
   });
@@ -45,9 +41,17 @@ $(document).ready(function () {
     var value = $(this).val().toLowerCase();
     $("#myTable tr").filter(function() {
       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-    });
+  });
   });
 
+  $( function() {
+    $( "#accordion" ).accordion();
+  });
+  $( function() {
+    $( "#draggable" ).draggable();
+  });
 
+  alert("Метод html() в консоли")
+    console.log($( "div").html());
 
 })
